@@ -1,0 +1,10 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+OPENAI_ENDPOINT = os.environ["AZURE_OPENAI_ENDPOINT"]
+CHAT_DEPLOYMENT = os.environ["AZURE_OPENAI_CHAT_DEPLOYMENT"]
+EMBED_DEPLOYMENT = os.environ["AZURE_OPENAI_EMBED_DEPLOYMENT"]
+SEARCH_ENDPOINT = os.environ["AZURE_SEARCH_ENDPOINT"]
+SEARCH_INDEX = os.environ["AZURE_SEARCH_INDEX"]
