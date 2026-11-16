@@ -17,8 +17,12 @@ If a download fails, fetch the file manually from the URL in
 `sources.json` and place it in `data/raw/`.
 
 $RG    = "rg-rag-assistant"
-$LOC   = "eastus"          # pick a region and stick with it; see the note in step 2
+$LOC   = "northcentralus"          # pick a region and stick with it; see the note in step 2
 $SUFFIX = 59630
 $STORAGE = "ragstore$SUFFIX"      # lowercase letters/numbers only, globally unique
 $SEARCH  = "rag-search-$SUFFIX"   # lowercase letters, numbers, hyphens, globally unique
 $AI_Name = "rg-rag-assistant-resource"
+$ACR = "ragassistant72480"
+$ENV_NAME = "cae-rag"
+$APP = "rag-api"
+$OPENAI_RESOURCE = "rg-rag-assistant-resource"
